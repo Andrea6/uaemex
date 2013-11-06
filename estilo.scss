@@ -14,40 +14,40 @@ html,body{
 		height: 65px;
 		color: white;
 
-		li{
-			list-style: none;
-			text-align: center;
-			height: 65px;
-			padding-top: 8%;
+		// li{
+		// 	list-style: none;
+		// 	text-align: center;
+		// 	height: 65px;
+		// 	padding-top: 8%;
 
-			ul{
-				margin-top: 27px;
-    			display: none;
-    			overflow: hidden;
-    			float: left;
+		// 	ul{
+		// 		margin-top: 27px;
+  //   			display: none;
+  //   			overflow: hidden;
+  //   			float: left;
 
-    			li{
-    				padding:0;
-    				padding-top: 5px;
-    				margin: 0 auto 0 auto;
-    				background-color: rgba(0, 0, 0, 0.30);
-    				height: 35px;
+  //   			li{
+  //   				padding:0;
+  //   				padding-top: 5px;
+  //   				margin: 0 auto 0 auto;
+  //   				background-color: rgba(0, 0, 0, 0.30);
+  //   				height: 35px;
 
-    			}
-    			li:hover{
-    				background-color: #BDA829;
-    				height: 35px;
-    			}
-			}
-		}
-		li:hover{
-			height: 65px;
-			background-color: #134D23;
-			ul{
-				display: block;
+  //   			}
+  //   			li:hover{
+  //   				background-color: #BDA829;
+  //   				height: 35px;
+  //   			}
+		// 	}
+		// }
+		// li:hover{
+		// 	height: 65px;
+		// 	background-color: #134D23;
+		// 	ul{
+		// 		display: block;
 
-			}
-		}
+		// 	}
+		// }
 
 	}
 }
