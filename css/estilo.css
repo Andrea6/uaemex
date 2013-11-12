@@ -25,3 +25,11 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+#mision{
+  background-color: #A4A4A4;
+  padding-top:3%;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 40%;
+}
