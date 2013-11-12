@@ -25,11 +25,36 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-#mision{
-  background-color: #A4A4A4;
-  padding-top:3%;
-  text-align: justify;
+
+#mision {
+  background-color: white;
+  padding-top: 5%; 
+  height: 100%;
   padding-left: 3%;
   padding-right: 3%;
-  height: 40%;
+  text-align: justify;
+}
+#vision{
+  background-color: white;
+  padding-top: 5%; 
+  height: 100%
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+#objetivos{
+   background-color: white;
+  padding-top: 5%; 
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+#valores{
+  background-color: white;
+  padding-top: 5%; 
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
 }
