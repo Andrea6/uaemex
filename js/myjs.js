@@ -5,31 +5,11 @@ jQuery(document).ready(function ($) {
     $(window).stellar();
 
     //Cache some variables
-    var links = $('.navigation').find('#menu');
+    var links = $('.navigation').find('a');
     slide = $('.slide');
     button = $('.button');
     mywindow = $(window);
     htmlbody = $('html,body');
-
-
-    //Setup waypoints plugin
-    slide.waypoint(function (event, direction) {
-
-        //cache the variable of the data-slide attribute associated with each slide
-        dataslide = $(this).attr('data-slide');
-
-        //If the user scrolls up change the navigation link that has the same data-slide attribute as the slide to active and 
-        //remove the active class from the previous navigation link 
-        if (direction === 'down') {
-            $('.navigation li[data-slide="' + dataslide + '"]').addClass('active').prev().removeClass('active');
-        }
-        // else If the user scrolls down change the navigation link that has the same data-slide attribute as the slide to active and 
-        //remove the active class from the next navigation link 
-        else {
-            $('.navigation li[data-slide="' + dataslide + '"]').addClass('active').next().removeClass('active');
-        }
-
-    });
 
     //Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
     //easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throught the plugin.
