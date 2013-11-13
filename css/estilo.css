@@ -27,8 +27,8 @@ html, body {
   background-size: cover; }
 
 #mision {
-  font-size: 20px;
-  background-color: white;
+  font-size: 19px;
+  background-color: rgba(0, 0, 0, 0.3);
   padding-top: 14%; 
   height: 70%;
   padding-left: 3%;
@@ -40,8 +40,8 @@ html, body {
   height: 100%;
 }
 #vision{
-  font-size: 19px;
-  background-color: rgb(220,220,220);
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
   padding-top: 14%; 
   height: 100%;
   padding-left: 3%;
@@ -49,8 +49,8 @@ html, body {
   text-align: justify;
 }
 #objetivos{
-  font-size: 15px;
-  background-color: white;
+  font-size: 17px;
+  background-color: 
   padding-top: 13%; 
   height: 100%;
   padding-left: 3%;
@@ -58,17 +58,17 @@ html, body {
   text-align: justify;
 }
 #valores{
-  font-size: 8px;
-  background-color: white;
-  padding-top: 5%; 
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 13%; 
   height: 100%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
 }
 #identidad{
-  font-size: 8px;
-  background-color: white;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
   padding-top: 5%; 
   height: 100%;
   padding-left: 3%;
@@ -77,12 +77,20 @@ html, body {
 }
 
 #manual{
-  font-size: 8px;
-  background-color: white;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
   padding-top: 5%; 
   height: 100%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
 }
-
+#adm{
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 5%; 
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
