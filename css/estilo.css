@@ -28,17 +28,14 @@ html, body {
 
 #mision {
   font-size: 19px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #F1F1F1;
   padding-top: 14%; 
   height: 70%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
 }
-#a{
-  background-image: url(../img/logo_ceum.gif);
-  height: 100%;
-}
+
 #vision{
   font-size: 17px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -96,4 +93,41 @@ html, body {
 }
 h2{
   text-align: center;
+}
+#fondo1{
+  background-image: url(../img/fondos/fondo1.jpg);
+  height: 100%;
+}
+#fondo2{
+  background-image: url(../img/fondos/fondo2.jpg);
+  height: 100%;
+}
+#fondo3{
+  background-image: url(../img/fondos/fondo3.jpg);
+  height: 100%;
+}
+#fondo4{
+  background-image: url(../img/fondos/fondo4.jpg);
+  height: 100%;
+}
+#fondo5{
+  background-image: url(../img/fondos/fondo5.jpg);
+  height: 100%;
+}
+#fondo6{
+  background-image: url(../img/fondos/fondo6.jpg);
+  height: 100%;
+}
+#fondo_frase{
+  height: 40%;
+  color: white;
+  font-size: 40px;
+  padding-top: 3%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: justify;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+#fondo_frase2{
+  height: 10%;
 }
