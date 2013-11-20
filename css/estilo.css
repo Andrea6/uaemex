@@ -27,32 +27,68 @@ html, body {
   background-size: cover; }
 
 #mision {
-  background-color: white;
-  padding-top: 5%; 
-  height: 100%;
+  font-size: 19px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 14%; 
+  height: 70%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
 }
+#a{
+  background-image: url(../img/logo_ceum.gif);
+  height: 100%;
+}
 #vision{
-  background-color: white;
-  padding-top: 5%; 
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 14%; 
   height: 100%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
 }
 #objetivos{
-   background-color: white;
-  padding-top: 5%; 
+  font-size: 17px;
+  background-color: 
+  padding-top: 13%; 
   height: 100%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
 }
 #valores{
-  background-color: white;
-  padding-top: 5%; 
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 13%; 
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+#identidad{
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 13%; 
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+
+#manual{
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 13%; 
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+#adm{
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 13%; 
   height: 100%;
   padding-left: 3%;
   padding-right: 3%;
